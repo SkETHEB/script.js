@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> 
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>In Tech We Trust - Online Clothing Store</title>
+      <link rel="stylesheet" href="style.css">
+      <body style="background-color: beige;">
+      </head>
+
+      <body>
+        <header>
+            <nav>
+                <a href="First.html">
+                    <img src="images.html/logo.jpg" alt="In Tech We Trust Logo" class="logo">
+                </a>
+
+                <button id="modeToggle" aria-pressed="false">🌙</button> 
+                 
+                <button id="hamburger" class="hamburger" aria-label="Menu" aria-expanded="false">☰ Menu</button>
+
+                <ul id="navList">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="enquiry.html">Enquiry</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li>🛒Cart: <span id="cart-count">0</span></li>
+                </ul>
+
+            </nav>
+        </header>
+
+        <main>
+            <section class="about-us">
+                <h1>About In Tech We Trust</h1>
+
+                <h2>Our Story</h2>
+                <p>In Tech We Trust was born out of passion for technology and a desire to express that passion through fashion. We believe that clothing can be a statement, a way to showcase your interests and connect with like minded individuals</p>
+                <p>Founded in 2025, our mission is to provide high quality, stylish clothing that reflects the modern, tech-driven world. We draw inspirations from the latest innovations, trends in gaming, and the digital landscape. </p>
+
+                <h2>Our Mission</h2>
+                <p>To provide customers with high quality, stylish clothing accessible through a user-friendly online experience, and to inspire confidence and self-expression through innovation, tech-inspired designs.</p>
+
+                <h2>Our Vision</h2>
+                <p>To become a leading online clothing retailer known for its unique brand identity, commitment to customer satisfaction, and innovation approach to fashion and technology.</p>
+            </section>
+
+            <section class="products">
+                <h1>Our Products</h1>
+                <div class="product-grid">
+                    <div class="product">
+                        <img src="images.html/t-shirt.jpg" alt="In Tech We Trust brand T-Shirt"/>
+                        <h3>Techwear T-Shirt</h3>
+                        <p>Stylish and comfortable techwear t-shirt fot the modern urban explorer.</p>
+                        <span class="price">R500.00</span>
+                        <button class="add-to-cart">Add to Cart</button>                   
+                    </div>
+
+                    <div class="product ">
+                        <img src="images.html/hoodie.jpg" alt="A Tech Hoodie">
+                        <h3>Hoodie</h3>
+                        <p>Cozy hoodie designed.</p>
+                        <span class="price">R750.00</span>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </section>
+
+            <div id="toast">✔ Added to cart!</div>
+            <section class="contact">
+                <h1>Contact Us</h1>
+                <div class="contact-info">
+                    <h3>Contact No: +27780936572</h3>
+                    <h2> Our Locations</h2>
+                    <div class="location">
+                        <h3>Main Office</h3>
+                        <p>123 Olympus Village</p>
+                        <p>Pretoria, 012</p>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <h2>Send us a message</h2>
+                    <form id="contactForm" action="#" method="post"
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+
+                        <button type="submit">Send Message</button>
+                    </form>
+
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 In Tech We Trust</p>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
