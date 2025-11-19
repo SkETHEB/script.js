@@ -1,0 +1,2 @@
+# script.js
+JavaScript - continuation
